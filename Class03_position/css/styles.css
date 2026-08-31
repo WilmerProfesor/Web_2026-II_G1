@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#base{ 
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px ;
+} 
+body{
+    background-color: #f0f0f0;
+    width: 200vw;
+    height: 200vh;
+}
+
+.caja{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+h1{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    /* display: none; */
+}
+
+.enlace{
+    width: 100px;
+    height: 100px;  
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+#dos{
+    border: 2px solid red;
+    background-color: yellow;
+    /*------ position: relative ---------*/
+    /* position: relative;
+    left: -50px;    
+    top: 50px; */
+    /*------ position: ABSOLUTE ---------*/
+    /* position: absolute;
+    left: 50px;    
+    top: 50px; */
+    /*------ position: STICKY ---------*/
+    /* position: sticky;
+    left: 50px;    
+    top: 50px; */
+    /*------ position: STICKY ---------*/
+    position: fixed;
+    left: 50px;    
+    top: 50px;
+}
