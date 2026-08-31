@@ -1,0 +1,42 @@
+h2{
+    color: green;
+}
+
+.izquierda{
+    font-size: 50px;
+    color: green;
+}
+
+
+#hombre{
+    text-decoration: underline;
+    color: yellow;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 50px black;
+}
+
+.menu{
+    list-style: none;
+    li{
+        border: solid 10px black;
+        display: inline-block;
+        padding: 10px;
+        margin: 0px 100px;
+        
+        border-radius: 10px;
+        &:hover{
+            background-color: black;
+            a{
+                color: white;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
