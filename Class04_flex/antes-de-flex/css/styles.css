@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#box{
+    background-color: red;
+    width: 500px;
+    height: 400px;
+    position: absolute;    
+    top: calc(50% - 200px);
+    left: calc(50% - 250px);
+}
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: calc(50% - 50px);
+    background-color: blue;
+}
