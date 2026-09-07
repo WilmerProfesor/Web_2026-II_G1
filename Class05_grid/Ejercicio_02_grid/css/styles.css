@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;    
+    display: grid;
+    grid-template-columns: 38% 38% 24%;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-areas: 
+    "header header header"
+    "section1 section2 d"
+    "footer footer d"
+    ;    
+}
+
+header{
+    grid-area: header;
+    background-color: beige;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(220, 245, 228);
+}
+
+#section1{
+    grid-area: section1;
+    background-color: rgb(220, 238, 245);
+}
+
+#section2{
+    grid-area: section2;
+    background-color: rgb(245, 220, 241);
+}
+
+aside{
+    grid-area: d;
+    background-color: rgb(245, 220, 220);
+}

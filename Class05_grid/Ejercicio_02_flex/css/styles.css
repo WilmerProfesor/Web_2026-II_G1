@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    width: 100%;
+    height: 25%;
+    background-color: antiquewhite;
+}
+
+#container{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
+aside{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(215, 250, 224);
+}
+
+#content{
+    height: 100%;
+    width: 75%;    
+}
+
+main{
+    height: 70%;
+    width: 100%;  
+    display: flex;  
+}
+
+footer{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(224, 215, 250);
+}
+
+section{
+    height: 100%;
+    width: 50%;        
+}
+
+#section1{
+    background-color: rgb(250, 215, 244);
+}
+
+#section2{
+    background-color: rgb(250, 215, 215);
+}

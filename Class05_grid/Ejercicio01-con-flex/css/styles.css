@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.box{
+    width: 25%;
+    height: 100%;   
+    border: solid 2px black; 
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+nav{
+    background-color: rgb(182, 238, 186);
+}
+
+main{
+    background-color: rgb(187, 182, 238);
+}
+footer{
+    background-color: rgb(238, 182, 227);
+}
