@@ -12,6 +12,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 20vh);
     grid-template-areas: 
+    
     "header"
     "nav"
     "section1"

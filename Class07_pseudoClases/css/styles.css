@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    display: inline-block;
+}
+
+h1:hover {
+    color: blue;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 3rem;
+}
+
+li {
+    margin: 20px;
+
+    a {
+        text-decoration: none;
+        border: solid 1px black;
+        padding: 10px;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: yellow;
+        }
+    }
+}
