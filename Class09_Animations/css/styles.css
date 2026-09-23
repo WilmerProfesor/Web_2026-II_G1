@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+}
+
+#box{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    border: solid 1px black;
+    background-color: red;
+    /* &:hover{
+    } */
+    /* background-image: linear-gradient(to bottom,yellow,  yellow, blue, red); */
+    /* background-image: radial-gradient(circle, yellow,  yellow, blue, red); */
+    /* translate: -300px -300px; */
+    /* transform: translate(300px,  300px); */
+    /* transform: rotate(45deg); */
+    /* transform: rotatez(-45deg); */
+    /* transform: rotatex(-75deg); */
+    /* transform: rotatey(-75deg); */
+    /* transform: skew(35deg, 30deg); */
+    /* transition: 1s;
+    transform: scale(-2.5);
+    &:hover{
+        transform: scale(-2.5);
+    } */
+
+
+}
