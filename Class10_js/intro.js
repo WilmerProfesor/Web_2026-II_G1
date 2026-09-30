@@ -26,5 +26,36 @@ console.log(typeof(y7))
 
 console.log("XXX");
 
-alert("Esta es una salida estándar similar a JOptionPane.showMessageDialog")
-let variable=prompt("Esta es una entrada JOptionPane.showInputDialog");
+//alert("Esta es una salida estándar similar a JOptionPane.showMessageDialog");
+//let variable=prompt("Esta es una entrada JOptionPane.showInputDialog");
+
+/*OPERADORES
+
+>
+<
+>=
+<=
+==
+!=
+===
+!==
+
+*/
+
+let a=5;
+let b="5";
+
+console.log(a);
+console.log(b);
+console.log(typeof(a));
+console.log(typeof(b));
+
+if(a===b){
+    console.log("Iguales");    
+}else{
+    console.log("DIferentes");    
+}
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];   
+}
