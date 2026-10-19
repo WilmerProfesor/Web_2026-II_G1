@@ -56,6 +56,28 @@ if(a===b){
     console.log("DIferentes");    
 }
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];   
+switch(a){
+    case 1:
+        console.log("Es uno");
+        break;
+    case 2:
+        console.log("Es dos");
+        break;
+    case 3:
+        console.log("Es tres");
+        break;
+    default:
+        console.log("No es ninguno de los anteriores");
+}
+
+let variable=0;
+for(let i=0; i<10; i++){
+    console.log("i: "+i);
+    // variable=prompt("Ingrese un valor");
+}
+
+let i=0;
+while(i<10){
+    console.log("i: "+i);
+    i++;
 }
