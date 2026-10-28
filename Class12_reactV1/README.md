@@ -44,3 +44,13 @@ src
 8. para importar los estilos se usa ej: import "./Header.css" 
 9. para usar imágenes se usa ej: import nombre_xxxx from "../../../public/  nombre_imagen.png"
     a. en la etiqueta img se coloca en el src:{nombre_xxxx}
+
+10. para importar un componente desde mui
+    a. ingresar a https://mui.com/
+    b. ir a libraries (botón disponible en el sitio)
+    c. ingresar a la opción Material UI
+    d. coppiar npm install @mui/material @emotion/react @emotion/styled
+        e instalarlo en el proyecto
+    e. ingresar a get started de mui.com
+    f. seleccionar el componente que desea copiar
+    e. al seleccionar el componente ir a show code copiar el código y pegarlo en el componente del proyecto. 
